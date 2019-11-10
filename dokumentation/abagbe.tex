@@ -43,7 +43,7 @@
 	\ref{Transfermatrix1} Beispiel einer Transfermatrix multipliziert mit dem Lichtstrahl-Vektor wobei y die Höhe über der optischen Achse (x in der Abbildung) des Lichtstrahles und \(\theta\) den Winkel zur optischen Achse beschreibt \\
 	
 	Das Ziel ist es eine solche Transfermatrix dieses optischen Systems zu berechnen. 
-	\section{Aufgabe 1}
+	\section{Aufgabe 1 und 2}
 	In dieser Aufgabe müssen wir die Position der letzten Linse \(L_{4}\) so berechnen, dass das System scharf abbildet. Dies ist, wie in der Aufgabenstellung schon beschrieben, der Fall wenn horizontal einfallende Strahlen wieder Horizontal austreten. Allgemein kann man sagen, dass eintretende Strahlen, welche zueinander parallel sind, wieder zueinander parallel austreten.
 	Das bedeutet für die Transfermatrix, wenn ein Strahl mit \(\theta_{1} = 0\) und \(y_{1} \neq 0\) in das System kommt dieser wieder mit \(\theta_{2} = 0\) austritt. Anders ausgedrückt: 
 	\begin{equation} \label{scharfAbb}
@@ -86,7 +86,14 @@
 	T = T_{L4}T_{a3}T_{L3}T_{a2}T_{L2}T_{a1}T_{L1}
 	\end{equation}
 	\ref{TLinsSys} Die Matrizen \(T_{a1},T_{a2},T_{a3}\) beschrieben den Abstand zwischen den Linsen. Dabei ist zu beachten, dass bei \(T_{a3}\) die Distanz noch Unbekannt ist, und bei den bekannten Distanzen die Dicken der Linsen subtrahiert werden, um die Distanz zwischen den Linsenoberflächen zu erhalten. Die Matrizen \(T_{L1},T_{L2},T_{L3},T_{L4}\) beschrieben die Transfermatrizen der Linsen. Diese wurden nach dem oben erwähnten Prinzip berechnet, wobei für den Brechungsindex \(a_{1}\) 1 verwendet wurde, da in der Aufgabe die Linsen von Luft, für welches n = 1 gilt, umgeben sind.
-	Löst man die Gleichung für \(x'_{3}\) und \(x''_{3}\) auf und berechnet die Position der Linse 4 kommt man auf das Ergebnis, dass die Linse 4 nur um .8 mm verschoben werden muss, damit die Linse in beiden Positionen scharf abbildet. Dies ist sogleich die Antwort auf die Zweite Frage.
-	\section{Aufgabe 2}
-	
+	Die Transfermatrix für das System wurde mit einem Matlab Skript berechnet. Die Matrix hat jedoch noch eine Unbekannte, die Distanz zwischen \(L_{3}\) und \(L_{4}\). Diese Unbekannte lässt sich nach dem oben genannten Prinzip Berechnen (die Zahl in Zeile 2 und Spalte 1 muss null sein). \\
+	\\
+	Löst man die Gleichung für \(x'_{3}\) und \(x''_{3}\) auf und berechnet die Position der Linse 4 kommt man auf das Ergebnis, dass die Linse 4 nur um 0.8 mm verschoben werden muss, damit die Linse in beiden Positionen scharf abbildet. Dies ist sogleich die Antwort auf die Zweite Frage. \\
+	Position der vierten Linse, wenn die Dritte Linse bei \(x'_{3}\) ist: 171.8567847673568127905970695569mm \\
+	Position der vierten Linse, wenn die Dritte Linse bei \(x''_{3}\) ist: 171.01342515747323965389575288258mm \\
+	\section{Aufgabe 3 und 4}
+	Da das Linsensystem bei Position \(x''_{3}\) eine Blende hat, wird die Vergrösserung mit einem Lichtstrahl berechnet, der diese Blende durchquert. Eigentlich sollte die Blende keinen Einfluss auf die Vergrösserung eines Optischen Systems haben, sondern lediglich die Menge des durchquerendes Lichtes beschrieben(Helligkeit). \\
+	Um herauszufinden welche Lichtstrahlen die Position (\(x''_{3},0\)) durchqueren brauchen wir eine Transfermatrix, die bi zu diesem Punkt geht, also ohne die vierte Linse und deren Abstand zur dritten Linse.
+	\subsection{Unterschied zum Keplerteleskop}
+	Ein wesentlicher Unterschied, welcher beim berechnen des Systems aufgefallen ist die Vergrösserung. Ein Kepler-Teleskop hat eine Negative Vergrösserung, das heisst, das Bild ist "auf dem Kopf". Bei unserem System ist die Vergrösserung Positiv, also wird das Bild in der gleichen Ausrichtung Projiziert. 
 \end{document}

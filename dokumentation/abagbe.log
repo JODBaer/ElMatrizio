@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.25)  10 NOV 2019 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.25)  14 NOV 2019 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -232,21 +232,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--94
  []
 
 [2]
-Overfull \hbox (15.32751pt too wide) in paragraph at lines 98--99
+Overfull \hbox (15.32751pt too wide) in paragraph at lines 121--122
 \OT1/cmr/m/n/10.95 Ein wesentlicher Un-ter-schied, welcher beim berech-nen des 
 Sys-tems aufge-fallen ist die Vergr^^?osserung.
  []
 
-[3] (./abagbe.aux)
+[3] [4] (./abagbe.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2078 strings out of 492609
- 27817 string characters out of 6132818
- 100107 words of memory out of 5000000
- 5986 multiletter control sequences out of 15000+600000
+ 2079 strings out of 492609
+ 27824 string characters out of 6132818
+ 100115 words of memory out of 5000000
+ 5987 multiletter control sequences out of 15000+600000
  9628 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,25p,615b,198s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -260,10 +260,10 @@ c/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
 fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on abagbe.pdf (3 pages, 165638 bytes).
+Output written on abagbe.pdf (4 pages, 167755 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

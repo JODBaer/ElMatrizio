@@ -96,7 +96,26 @@
 	Um herauszufinden welche Lichtstrahlen die Position (\(x''_{3},0\)) durchqueren brauchen wir eine Transfermatrix, die bis zu diesem Punkt geht, also ohne die vierte Linse und deren Abstand zur dritten Linse.
 	Da das System zwei verschiedene Positionen für die dritte Linse erlaubt, wird für jede Position eine Transfermatrix benötigt. 
 	\subsection{Vergrösserung 1}
-	Entscheidend dafür, ob ein Lichtstrahl durch einen bestimmten Punkt geht, ist das Verhältnis zwischen Abstand und Winkle zur optischen Achse.
+	Entscheidend dafür, ob ein Lichtstrahl durch einen bestimmten Punkt geht, ist das Verhältnis zwischen Abstand und Winkel zur optischen Achse. Mit Hilfe der Transfermatrix von \(x_{1}\) nach \(x''_{3}\) und einem Lichtvektor mit Variablen, lässt sich ausrechnen in welchen Verhältnis die beiden Variablen des Lichtvektors sein müssen um die Blende zu durchqueren. Dieses Verhältnis wurde mit Hilfe des Matlab-Skriptes berechnet. Mit dem Ermittelten Ergebnis wurde ein Lichtstrahl erstellt, welcher die Blende durchquert. Die Transfermatrix wird nun mit diesem Multipliziert. \\
+	Die Vergrösserung eines Optischen Systems lässt sich mit dem Verhältnis vom Einfallswinkel zum Ausfallswinkel berechnen. 
+	\begin{equation} \label{vergr}
+	\begin{pmatrix}
+	T
+	\end{pmatrix}
+	\quad
+	\begin{pmatrix}
+	y_{1}\\
+	\theta_{1}
+	\end{pmatrix}
+	\quad
+	=
+	\quad
+	\begin{pmatrix}
+	y_{2}\\
+	v * \theta_{1}
+	\end{pmatrix}
+	\end{equation}
+	\ref{vergr} Lichtvektor multipliziert mit einer Transfermatrix. v stellt hierbei den Vergrösserungsfaktor dar. 
 	\subsection{Vergrösserung 2}
 	\subsection{Unterschied zum Keplerteleskop}
 	Ein wesentlicher Unterschied, welcher beim berechnen des Systems aufgefallen ist die Vergrösserung. Ein Kepler-Teleskop hat eine Negative Vergrösserung, das heisst, das Bild ist "auf dem Kopf". Bei unserem System ist die Vergrösserung Positiv, also wird das Bild in der gleichen Ausrichtung Projiziert. 

@@ -2,8 +2,13 @@
 \usepackage{fullpage}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
 \title{Wettbewerb Matrixoptik}
-\author{Alain}
+\author{Alain Keller}
 
 \begin{document}
 	\maketitle
@@ -196,7 +201,7 @@
 	\end{aligned}
 	\end{equation*}
 	\subsection{Vergrösserung 1}
-	Entscheidend dafür, ob ein Lichtstrahl durch einen bestimmten Punkt geht, ist das Verhältnis zwischen Abstand und Winkel zur optischen Achse. Mit Hilfe der Transfermatrix von \(x_{1}\) nach \(x''_{3}\) und einem Lichtvektor mit Variablen, lässt sich ausrechnen in welchen Verhältnis die beiden Variablen des Lichtvektors sein müssen um die Blende zu durchqueren. Das berechnete Verhältnis ist: \(y:\theta \approx 1:0.6916\) Mit dem Ermittelten Ergebnis wurde ein Lichtstrahl erstellt, welcher die Blende durchquert. Die Transfermatrix wird nun mit diesem Multipliziert. \\
+	Entscheidend dafür, ob ein Lichtstrahl durch einen bestimmten Punkt geht, ist das Verhältnis zwischen Abstand und Winkel zur optischen Achse. Mit Hilfe der Transfermatrix von \(x_{1}\) nach \(x''_{3}\) und einem Lichtvektor mit Variablen, lässt sich ausrechnen in welchen Verhältnis die beiden Variablen des Lichtvektors sein müssen um die Blende zu durchqueren( Der berechnete Vektor muss einen y-Wert von 0 haben). Das berechnete Verhältnis ist: \(y:\theta \approx 1:0.6916\) Mit dem Ermittelten Ergebnis wurde ein Lichtstrahl erstellt, welcher die Blende durchquert. Die Transfermatrix wird nun mit diesem Multipliziert. \\
 	Die Vergrösserung eines Optischen Systems lässt sich mit dem Verhältnis vom Einfallswinkel zum Ausfallswinkel berechnen. 
 	\begin{equation} \label{vergr}
 	\begin{pmatrix}
@@ -234,9 +239,24 @@
 	\end{equation}
 	Anhand des Vektors kann man Ablesen, dass der Vergrösserungsfaktor ungefähr 13.9355 ist.
 	\subsection{Vergrösserung 2}
-	Um die Vergrösserung des Systems zu berechnen wenn die dritte Linse bei der Position \(x''_{3}\) ist, lässt sich fast gleich wie die vorherige Vergrösserung berechnen. Der einzige unterschied ist die Transfermatrix für die Berechnung eines Lichtstrahles, der durch den Punkt (\(x''_{3},0\)) geht. Da sich die Blende an der Position \(x''_{3}\) befindet, ist sie in diesem Fall in der Mitte der dritten Linse. Dafür wird für die Dritte Linse eine zusätzliche Transfermatrix berechnet, welche die halbe Linse beschreibt. Mit dieser wird dann die Transfermatrix von \(x_{1}\) bis \(x''_{3}\) berechnet. Die restlichen schritte sind die selben wie schon für die erste Vergrösserung angewendet wurden.
+	Um die Vergrösserung des Systems zu berechnen wenn die dritte Linse bei der Position \(x''_{3}\) ist, lässt sich fast gleich wie die vorherige Vergrösserung berechnen. Der einzige unterschied ist die Transfermatrix für die Berechnung eines Lichtstrahles, der durch den Punkt (\(x''_{3},0\)) geht. Da sich die Blende an der Position \(x''_{3}\) befindet, ist sie in diesem Fall in der Mitte der dritten Linse. Dafür wird für die Dritte Linse eine zusätzliche Transfermatrix berechnet, welche die halbe Linse beschreibt. Mit dieser wird dann die Transfermatrix von \(x_{1}\) bis \(x''_{3}\) berechnet. Berechnet man nun wieder das Verhältnis zwischen Winkel und Höhe eines Lichtstrahles kommt man auf das Ergebnis: \(y_{1} : \theta_{1} \approx 1:0.01848\) Die restlichen Schritte sind die selben wie schon für die erste Vergrösserung angewendet wurden.
+		\begin{equation}
+	\begin{pmatrix}
+	T
+	\end{pmatrix}
+	\begin{pmatrix}
+	54.1189\,\theta_2 \\
+	\theta_2  
+	\end{pmatrix}
+	\approx
+	\begin{pmatrix}
+	-62.8139\,\theta_2 \\
+	6.7207\,\theta_2
+	\end{pmatrix}
+	\end{equation}
+	Auch hier kann man den Vergrösserungsfaktor im Rechten Vektor ablesen. Er beträgt ungefähr: 6.7207
 	\subsection{Unterschied zum Keplerteleskop}
-	Ein wesentlicher Unterschied, welcher beim berechnen des Systems aufgefallen ist die Vergrösserung. Ein Kepler-Teleskop hat eine Negative Vergrösserung, das heisst, das Bild ist "auf dem Kopf". Bei unserem System ist die Vergrösserung Positiv, also wird das Bild in der gleichen Ausrichtung Projiziert. Dies kann auch mit einem parallel zur optischen Achse einfallenden Strahl gezeigt werden. Dieser verlässt das System wieder auf der Selben Seite, wie er eingefallen ist.
+	Ein wesentlicher Unterschied, welcher beim berechnen des Systems aufgefallen ist die Vergrösserung. Ein Kepler-Teleskop hat eine Negative Vergrösserung, das heisst, das Bild ist "auf dem Kopf". Bei unserem System ist die Vergrösserung Positiv, also wird das Bild in der gleichen Ausrichtung Projiziert. Dies kann auch mit einem parallel zur optischen Achse einfallenden Strahl gezeigt werden. Dieser verlässt das System wieder auf der selben Seite, wie er eingefallen ist. Dieser Unterschied ist für den Gebrauch des Systems nützlich, da die Ausrichtung auf ein Ziel natürlicher ist.
 	\begin{table}
 		\centering
 		\begin{tabular}{ll}
@@ -247,4 +267,27 @@
 			Unterschied zu Kepler-Teleskop & BlaBluBla \\
 		\end{tabular}
 	\end{table} \\
+
+\lstset{language=Matlab,%
+	%basicstyle=\color{red},
+	breaklines=true,%
+	morekeywords={matlab2tikz},
+	keywordstyle=\color{blue},%
+	morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+	identifierstyle=\color{black},%
+	stringstyle=\color{mylilas},
+	commentstyle=\color{mygreen},%
+	showstringspaces=false,%without this there will be a symbol in the places where there is a space
+	numbers=left,%
+	numberstyle={\tiny \color{black}},% size of the numbers
+	numbersep=9pt, % this defines how far the numbers are from the text
+	emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+	%emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+
+\section*{Matlab Code}
+
+\lstinputlisting{MatrixOptik.m}
+
 \end{document}

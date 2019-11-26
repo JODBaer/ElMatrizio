@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.25)  16 NOV 2019 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.25)  26 NOV 2019 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -107,6 +107,39 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count100
+\lst@gtempboxa=\box29
+\lst@token=\toks20
+\lst@length=\count101
+\lst@currlwidth=\dimen114
+\lst@column=\count102
+\lst@pos=\count103
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count104
+\lst@lineno=\count105
+\lst@maxwidth=\dimen117
+
+(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count106
+\lst@skipnumbers=\count107
+\lst@framebox=\box30
+)
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
 ) (./abagbe.aux
 
 LaTeX Warning: Label `SymmLinse' multiply defined.
@@ -114,31 +147,31 @@ LaTeX Warning: Label `SymmLinse' multiply defined.
 )
 \openout1 = `abagbe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
  (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen114
-\scratchbox=\box29
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen115
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count108
+\scratchdimen=\dimen118
+\scratchbox=\box31
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen119
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks22
 ) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -190,18 +223,19 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\c@lstlisting=\count114
 <./system.PNG, id=1, 1534.98468pt x 776.14969pt>
 File: ./system.PNG Graphic file (type png)
 <use ./system.PNG>
-Package pdftex.def Info: ./system.PNG  used on input line 12.
+Package pdftex.def Info: ./system.PNG  used on input line 17.
 (pdftex.def)             Requested size: 383.74522pt x 194.03694pt.
 
-Overfull \hbox (23.64043pt too wide) in paragraph at lines 15--23
+Overfull \hbox (23.64043pt too wide) in paragraph at lines 20--28
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
@@ -209,59 +243,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./system.PNG>] 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 155--162
+Underfull \hbox (badness 10000) in paragraph at lines 160--167
 
  []
 
 
-Overfull \hbox (15.17302pt too wide) in paragraph at lines 155--162
+Overfull \hbox (15.17302pt too wide) in paragraph at lines 160--167
 \OT1/cmr/m/n/10.95 Position der vierten Linse, wenn die Dritte Linse bei $\OML/
 cmm/m/it/10.95 x[]$ \OT1/cmr/m/n/10.95 ist: 171.8567847673568127905970695569mm 
 
  []
 
 
-Overfull \hbox (21.00908pt too wide) in paragraph at lines 155--162
+Overfull \hbox (21.00908pt too wide) in paragraph at lines 160--167
 \OT1/cmr/m/n/10.95 Position der vierten Linse, wenn die Dritte Linse bei $\OML/
 cmm/m/it/10.95 x[]$ \OT1/cmr/m/n/10.95 ist: 171.01342515747323965389575288258mm
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--162
+Underfull \hbox (badness 10000) in paragraph at lines 160--167
 
  []
 
 [3]
-Overfull \hbox (2.72212pt too wide) in paragraph at lines 219--221
+Overfull \hbox (2.72212pt too wide) in paragraph at lines 224--226
 []\OT1/cmr/m/n/10.95 6[] Lichtvek-tor mul-ti-pliziert mit einer Trans-fer-ma-tr
 ix. v stellt hi-er-bei den Vergr^^?osserungsfaktor
  []
 
 
-Overfull \hbox (15.32751pt too wide) in paragraph at lines 238--249
+Overfull \hbox (15.32751pt too wide) in paragraph at lines 259--270
 \OT1/cmr/m/n/10.95 Ein wesentlicher Un-ter-schied, welcher beim berech-nen des 
 Sys-tems aufge-fallen ist die Vergr^^?osserung.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--249
+Underfull \hbox (badness 10000) in paragraph at lines 259--270
 
  []
 
-[4] [5] (./abagbe.aux)
+[4] (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(./matrixoptik.m
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+ (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
+[7] (./abagbe.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2079 strings out of 492609
- 27824 string characters out of 6132818
- 102115 words of memory out of 5000000
- 5987 multiletter control sequences out of 15000+600000
+ 4504 strings out of 492609
+ 58124 string characters out of 6132818
+ 448586 words of memory out of 5000000
+ 8384 multiletter control sequences out of 15000+600000
  9628 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,25p,728b,198s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,40p,884b,2122s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-di
@@ -272,10 +320,10 @@ c/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
 fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on abagbe.pdf (5 pages, 171906 bytes).
+Output written on abagbe.pdf (7 pages, 181779 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

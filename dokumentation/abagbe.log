@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.25)  26 NOV 2019 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.25)  9 DEC 2019 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,28 +267,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--167
  []
 
 [3]
-Overfull \hbox (2.72212pt too wide) in paragraph at lines 224--226
+Overfull \hbox (2.64352pt too wide) in paragraph at lines 224--226
 []\OT1/cmr/m/n/10.95 6[] Lichtvek-tor mul-ti-pliziert mit einer Trans-fer-ma-tr
-ix. v stellt hi-er-bei den Vergr^^?osserungsfaktor
+ix. $\OML/cmm/m/it/10.95 v$ \OT1/cmr/m/n/10.95 stellt hi-er-bei den Vergr^^?oss
+erungsfaktor
+ []
+
+[4]
+Overfull \hbox (58.07431pt too wide) in paragraph at lines 262--270
+ [][] 
  []
 
 
-Overfull \hbox (15.32751pt too wide) in paragraph at lines 259--270
+Overfull \hbox (15.32751pt too wide) in paragraph at lines 259--271
 \OT1/cmr/m/n/10.95 Ein wesentlicher Un-ter-schied, welcher beim berech-nen des 
 Sys-tems aufge-fallen ist die Vergr^^?osserung.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--270
+Underfull \hbox (badness 10000) in paragraph at lines 259--271
 
  []
 
-[4] (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-(./matrixoptik.m
+) (./matrixoptik.m
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
- (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -305,7 +311,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4504 strings out of 492609
  58124 string characters out of 6132818
- 448586 words of memory out of 5000000
+ 445783 words of memory out of 5000000
  8384 multiletter control sequences out of 15000+600000
  9628 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -320,7 +326,7 @@ c/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
 fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on abagbe.pdf (7 pages, 181779 bytes).
+Output written on abagbe.pdf (7 pages, 181335 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
